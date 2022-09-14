@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "popins", "sans-serif";
+  box-sizing: border-box;
+}
+p{
+  color: rgb(110, 105, 99);
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/anastase-maragos-4dlhin0ghOk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background: #080808; */
+  color: #fff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.fa-bicycle {
+  color: red;
+  font-size: 80px;
+}
+.logoHead {
+  padding-top: 33px;
+  padding-left: 18px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 20px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  background: #ff004f;
+  width: 0px;
+  height: 3px;
+  left: 0px;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+.header-text {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 36px;
+}
+.header-button {
+  /* height: 20px; */
+  padding: 15px 30px;
+  background: rgb(124, 68, 68);
+  font-size: 18px;
+  border: 0;
+  border-radius: 26px;
+  color: antiquewhite;
+  font-weight: bolder;
+}
+.second-page {
+  height: 60vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  top: 30%;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  /* align-items: center; */
+  
+  
+}
+
+.left-head{
+  
+  /* top: 30px; */
+  font-size: 20px;
+  color: rgb(93, 104, 104);
+
+
+}
+.left-sub-head{
+  flex-wrap: 1;
+  font-size: 35px;
+  color: rgb(110, 105, 99);
+
+  
+
+  
+}
+.left-p{
+  
+  height: 150px;
+  font-size: 20px;
+  padding-right: 20px;
+  font-style: italic;
+
+}
+
+.right {
+  flex-basis: 50%;
+  /* background-color: blue; */
+  margin: auto;
+}
+.right img{
+  width: 100%;
+  border-radius: 10px;
+}
