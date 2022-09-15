@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 p {
-  color: rgb(110, 105, 99);
+  color: #696969;
 }
 .header {
   width: 100%;
@@ -124,7 +124,10 @@ nav ul li a:hover::after {
   justify-content: center;
   align-items: center;
 }
-.td-1,.td-2,.td-3,.td-4 {
+.td-1,
+.td-2,
+.td-3,
+.td-4 {
   width: 20%;
   height: 80%;
   padding: 20px;
@@ -142,7 +145,7 @@ nav ul li a:hover::after {
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
   text-align: center;
   font-size: 25px;
-  padding-top: 28px;
+  padding-top: 22px;
   position: relative;
   color: #131112;
   border-radius: 50px;
@@ -171,11 +174,123 @@ nav ul li a:hover::after {
 .icon1 a:hover .fas {
   color: #fff;
 }
-.therd-p-d h3{
+.therd-p-d h3 {
   text-align: center;
   padding-top: 20px;
-} 
-.therd-p-d p{
+}
+.therd-p-d p {
   text-align: center;
   padding-top: 20px;
-} 
+}
+
+/* fouth-div */
+.fourth-div {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f1 {
+  width: 40%;
+  height: 40vh;
+  padding: 40px;
+}
+.f2 {
+  width: 40%;
+  height: 40vh;
+}
+.f2 img {
+  height: 40vh;
+}
+.btn-4 {
+  min-width: 300px;
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  border-radius: 6px;
+}
+.fmg-4 {
+  min-width: 200px;
+}
+.fmg-41 {
+  /* margin-top: 10px; */
+}
+.fmg-42 {
+  margin-top: 10px;
+}
+
+/* fifth page */
+.fifth-u {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-h1 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #7e7d7d;
+  display: block;
+}
+.fifth-l {
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px; */
+  width: 80%;
+  margin-left: 10%;
+}
+.fifth-l-l {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifth-l-m {
+  width: 30%;
+}
+.fifth-l-r {
+  width: 30%;
+}
+
+.img-5 {
+  object-fit: cover;
+  width: 100%;
+}
+.fifth-lh {
+  display: block;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.fifth-h2 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+
+/* footer */
+.footer{
+  background: #131419;
+  color: aliceblue;
+  width: 100%;
+  height: 30vh;
+}
+.u-footer{
+
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
